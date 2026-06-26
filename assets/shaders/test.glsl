@@ -7,6 +7,6 @@ layout(location=0) out vec4 vColor;
 in vec2 vTexCoord;
 
 void main() {
-    // vColor = texture(test, vTexCoord);
-    vColor = vec4(0, 1, 1, 1);
+    vColor = texture(test, vTexCoord);
+    // vColor = vec4(0, 1, 1, 1);
 }

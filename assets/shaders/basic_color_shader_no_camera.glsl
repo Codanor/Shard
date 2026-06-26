@@ -19,8 +19,8 @@ void main() {
 
 in vec4 vColor;
 
-layout(location=0) out vec4 inputTest;
+layout(location=0) out vec4 test;
 
 void main() {
-    inputTest = vColor;
+    test = vColor;
 }
